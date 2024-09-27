@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');    /* Body */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');        /* Body */
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Styles for the body */
 body {
     font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
@@ -22,9 +26,9 @@ h1 {
 /* Styles for the nav(s) */
 nav {
     background-color: #333;
-    overflow: hidden;
     margin: 3vw auto;
-    padding: 2px;
+    padding: 20px;
+    color: white;
 }
 
 /* Styles for children of the nav(s) */
@@ -32,17 +36,17 @@ nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav > ul > li {
-    display: inline;
-    text-align: center;
-    margin: 2px;
+    margin: 0 10px;
 }
 
 nav a {
     display: inline-block;
-    padding: 12px;
+    padding: 2px 20px;
     text-decoration: none;
     color: white;
 }
