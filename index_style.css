@@ -1,1 +1,29 @@
 
+body {
+    background: linear-gradient(135deg, 
+        #ff7e5f 0%, 
+        #feb47b 20%, 
+        #ffcc5c 50%, 
+        #ff7e5f 80%, 
+        #feb47b 100%);
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro-name h2 {
+    padding-left: 20px;
+}
+
+nav > ul {
+    display: flex; /* Keep items aligned in a row */
+}
+
+nav > ul > li {
+    margin: 0 10px;
+}
