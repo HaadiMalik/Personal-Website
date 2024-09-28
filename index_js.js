@@ -42,7 +42,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     }
 }, {
-    threshold: 0.5, // Trigger when 50% of the heading is visible
+    threshold: 0.4, // Trigger when 40% of the heading is visible
     rootMargin: '-20% 0px -50% 0px', // Adjust to ensure activation occurs earlier
 });
 
@@ -67,13 +67,3 @@ function checkInitialSection() {
         activateLink(activeSection.section.id);
     }
 }
-
-// Call this function on page load
-window.addEventListener('load', checkInitialSection);
-
-// Add scroll event listener to check if the user has scrolled to the bottom
-window.addEventListener('scroll', () => {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        activateLink('media'); // Activate the "Media" section when scrolled to the bottom
-    }
-});
