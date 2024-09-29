@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   
     const observerOptions = {
       root: null,
-      rootMargin: "-50% 0px -50% 0px", // Adjust this value based on your sticky navbar height
-      threshold: 0
+      rootMargin: "-50% 0px -40% 0px", // Adjust this value based on your sticky navbar height
+      threshold: 0.05
     };
   
     const observer = new IntersectionObserver((entries) => {
