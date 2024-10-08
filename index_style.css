@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Start general CSS */
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -30,6 +32,14 @@ h2 {
 h4 {
     font-size: 20px;
 }
+
+p {
+    margin-bottom: 40px;
+}
+
+/* End general CSS */
+
+/* Start nav CSS */
 
 nav {
     background-color: #333;
@@ -71,6 +81,11 @@ nav ul li a:hover, nav ul li a.active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
+/* End nav CSS */
+
+
+/* Start background CSS */
+
 .background-container {
     background-image: url('./black-background.jpg');
     background-size: cover; 
@@ -80,6 +95,8 @@ nav ul li a:hover, nav ul li a.active {
     padding-top: 60px; 
     min-height: 100vh; 
 }
+
+/* End background CSS */
 
 #about-me-container {
     display: flex;
@@ -98,9 +115,33 @@ nav ul li a:hover, nav ul li a.active {
     margin: 0 auto;
 }
 
-p {
-    margin-bottom: 40px;
+
+
+/* Start 'Skills' CSS */
+
+.skills-text-container {
+    display: flex;
+    justify-content: space-around; /* Adjusts spacing between items */
+    padding: 20px;
 }
+
+.skills-text-item {
+    flex: 1; /* Allows items to grow equally */
+    margin: 0 10px; /* Adds space between items */
+    padding-left: 10px;
+}
+
+.skills-text-item ul {
+    list-style-type: none;
+}
+
+.skills-text-item ul li::before {
+    content: '-'; /* Add a dash before each list item */
+    position: relative;
+    left: -20px
+}
+
+/* End 'Skills' CSS */
 
 @media (max-width: 768px) {
     #about-me-container {
