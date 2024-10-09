@@ -17,24 +17,34 @@ body {
     text-align: justify;
     line-height: 150%;
     letter-spacing: 0.5px;
-    font-size: 16px;
+    font-size: 17px;
     color: white;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 42px;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 34px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 p {
     margin-bottom: 40px;
+}
+
+.section ul li {
+    list-style-type: none;
+}
+
+.section ul li::before {
+    content: '-'; /* Add a dash before each list item */
+    position: relative;
+    left: -20px
 }
 
 /* End general CSS */
@@ -129,16 +139,6 @@ nav > ul > li > a:hover, nav > ul > li > a.active {
     flex: 1; /* Allows items to grow equally */
     margin: 0 10px; /* Adds space between items */
     padding-left: 10px;
-}
-
-.skills-text-item ul {
-    list-style-type: none;
-}
-
-.skills-text-item ul li::before {
-    content: '-'; /* Add a dash before each list item */
-    position: relative;
-    left: -20px
 }
 
 /* End 'Skills' CSS */
