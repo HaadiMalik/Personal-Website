@@ -33,6 +33,10 @@ h4 {
     font-size: 22px;
 }
 
+h5 {
+    font-size: 18px;
+}
+
 p {
     margin-bottom: 40px;
 }
@@ -142,6 +146,36 @@ nav > ul > li > a:hover, nav > ul > li > a.active {
 }
 
 /* End 'Skills' CSS */
+
+/* Start 'Experience' CSS */
+
+h4.experience-title {
+    margin-bottom: 10px;
+}
+
+span.date {
+    float: right;
+}
+
+h5.experience-location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.experience-description {
+    margin: 15px auto;
+}
+
+ul.experience-bullets {
+    margin-bottom: 50px;
+}
+
+/* End 'Experience' CSS */
+
+/* Start 'Projects' CSS */
+
+
+/* End 'Projects' CSS */
 
 @media (max-width: 768px) {
     #about-me-container {
