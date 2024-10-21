@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     const observerOptions = {
       root: null,
-      rootMargin: "-25% 0px -55% 0px", // Adjust this value based on your sticky navbar height
+      rootMargin: "-25% 0px -50% 0px", // Adjust this value based on your sticky navbar height
       threshold: 0.15
     };
   
