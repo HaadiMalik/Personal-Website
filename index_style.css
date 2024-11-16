@@ -177,6 +177,22 @@ ul.experience-bullets {
 
 /* End 'Projects' CSS */
 
+/* Start 'Media' CSS */
+
+.media-icon {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* End 'Media' CSS */
+
+/* Start 'Footer' CSS */
+
+
+/* End 'Footer' CSS */
+
+
 @media (max-width: 768px) {
     #about-me-container {
         flex-direction: column;
