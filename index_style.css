@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 250px;
     overflow-x: hidden;
 }
 
@@ -22,11 +23,11 @@ body {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 38px;
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 32px;
 }
 
 h4 {
@@ -77,6 +78,7 @@ nav > ul {
 
 nav > ul > li {
     margin: 0 15px;
+    font-size: 25px;
 }
 
 nav > ul > li > a {
@@ -93,6 +95,13 @@ nav > ul > li > a:hover, nav > ul > li > a.active {
     padding: 16px 3vw; 
     border-radius: 6px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.media-icon {
+    width: 35px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 /* End nav CSS */
@@ -177,15 +186,6 @@ ul.experience-bullets {
 
 /* End 'Projects' CSS */
 
-/* Start 'Media' CSS */
-
-.media-icon {
-    width: 50px;
-    height: auto;
-    margin-top: 10px;
-}
-
-/* End 'Media' CSS */
 
 /* Start 'Footer' CSS */
 
