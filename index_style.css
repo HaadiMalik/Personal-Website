@@ -156,9 +156,10 @@ nav > ul > li > a:hover, nav > ul > li > a.active {
 
 /* End 'Skills' CSS */
 
-/* Start 'Experience' CSS */
 
-h4.experience-title {
+/* Start 'Education' and 'Experience' CSS */
+
+h4.education-title, h4.experience-title {
     margin-bottom: 10px;
 }
 
@@ -166,20 +167,25 @@ span.date {
     float: right;
 }
 
-h5.experience-location {
+h5.education-location, h5.experience-location {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+p.education-description {
+    font-size: 20px;
+    margin: 20px auto;
 }
 
 p.experience-description {
     margin: 15px auto;
 }
 
-ul.experience-bullets {
+ul.education-bullets, ul.experience-bullets {
     margin-bottom: 50px;
 }
 
-/* End 'Experience' CSS */
+/* End 'Education' and 'Experience' CSS */
 
 /* Start 'Projects' CSS */
 
